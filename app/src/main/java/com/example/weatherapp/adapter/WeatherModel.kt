@@ -1,6 +1,6 @@
 package com.example.weatherapp.adapter
 
-data class WeatherModel (
+public final data class WeatherModel (
     val city: String,
     val time: String,
     val condition: String,
