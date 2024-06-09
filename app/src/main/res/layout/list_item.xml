@@ -19,7 +19,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/autour_one"
-            android:text="Moon 22 /12/2022"
+            android:text="Lunes 22 /12/2022"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -44,6 +44,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="centerCrop"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
