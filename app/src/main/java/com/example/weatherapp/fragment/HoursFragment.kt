@@ -49,11 +49,11 @@ class HoursFragment : Fragment() {
         //Отсечь прошлое время
         val curTime=System.currentTimeMillis()
         var count=0
-        for (i in 0 until hoursArray.length()){
+        /*for (i in 0 until hoursArray.length()){
             if (curTime>(hoursArray[i] as JSONObject).getString("time_epoch").toLong()){
                 count=i
             }
-        }
+        }*/
         //Конец
 
         for (i in count until hoursArray.length()) {
